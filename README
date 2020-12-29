@@ -5,3 +5,21 @@ This repository is a collection of programs done during the 100 days of Coding C
 Day 0:
 Started with some simple code on bits manipulation.
 
+Prog1 : Find if the number is a power of 2.
+The simplest solution to this problem is by using the AND operation of the number and
+number -1.
+
+Prog2 : Find how many bits are different comparing 2 numbers.
+
+EXOR A and B to find out the exact number of bits that are different.
+Now use shift operation to find if the LSB is 1 and then right shift by 1.
+
+Keep track of the count.
+
+Prog3 : Find the rightmost different bit.
+
+This is similar to the above program with a small difference.
+when you find the right most bit that is set return the count.
+
+
+
